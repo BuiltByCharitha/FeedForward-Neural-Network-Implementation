@@ -1,2 +1,2 @@
 # FeedForward-Neural-Network-Implementation
-This project implements a fully functional feedforward neural network from scratch using only NumPy.
+This project implements a fully functional feedforward neural network from scratch using only NumPy. It includes modular classes for network construction: a base Layer class, a FCLayer for dense connections, and an ActivationLayer for non-linear transformations. A Network class handles model assembly, training, and prediction. The implementation is validated through unit tests for forward and backward propagation, and evaluated on two tasks — learning the XOR function and classifying simulated stress vs. non-stress data — with validation loss curves illustrating learning performance.
